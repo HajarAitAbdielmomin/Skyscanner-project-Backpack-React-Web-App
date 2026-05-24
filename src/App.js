@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { BpkCode } from '@skyscanner/backpack-web/bpk-component-code';
 import BpkButton from '@skyscanner/backpack-web/bpk-component-button';
 import BpkText from '@skyscanner/backpack-web/bpk-component-text';
 import BpkCalendar, { CALENDAR_SELECTION_TYPE } from '@skyscanner/backpack-web/bpk-component-calendar';
@@ -44,12 +43,14 @@ const App = () => {
           formatMonth={date => date.toLocaleString('default', { month: 'long', year: 'numeric' })}
           formatDateFull={date => date.toDateString()}
         />
-        {selectedDate && (
+          {/*
+          {selectedDate && (
           <BpkText tagName="p" className={getClassName('App__text')}>
             Selected: {selectedDate.toDateString()}
           </BpkText>
         )}
-        <BpkButton onClick={() => alert('It works!')}>Click me</BpkButton>
+          */}
+        <BpkButton onClick={() => alert('It works!')}>Continue</BpkButton>
       </main>
     </div>
   );
