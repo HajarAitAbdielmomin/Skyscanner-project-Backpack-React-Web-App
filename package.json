@@ -1,0 +1,36 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@skyscanner/backpack-web": "latest",
+    "bpk-stylesheets": "latest",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sass": "latest"
+  },
+  "devDependencies": {
+    "@skyscanner/backpack-react-scripts": "11.2.2",
+    "@skyscanner/cra-template-backpack": "0.0.9"
+  },
+  "scripts": {
+    "start": "node node_modules/@skyscanner/backpack-react-scripts/scripts/start.js",
+    "start-ssr": "node node_modules/@skyscanner/backpack-react-scripts/scripts/start-ssr.js",
+    "build": "node node_modules/@skyscanner/backpack-react-scripts/scripts/build.js",
+    "build-ssr": "node node_modules/@skyscanner/backpack-react-scripts/scripts/build.js",
+    "test": "node node_modules/@skyscanner/backpack-react-scripts/scripts/test.js",
+    "eject": "node node_modules/@skyscanner/backpack-react-scripts/scripts/eject.js"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
